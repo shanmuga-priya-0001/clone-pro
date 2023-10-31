@@ -1,0 +1,409 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(39, 38, 38);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.circle {
+    width: 2vw;
+    height: 3vh;
+    background-color: aliceblue;
+    border-radius: 100%;
+    margin-top: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.amenu {
+    color: rgb(189, 186, 186);
+}
+
+.lmenu {
+    color: rgb(255, 255, 255);
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 20vw;
+
+
+}
+
+.left {
+    display: flex;
+    justify-content: first baseline;
+    margin-top: 1%;
+    width: 5vw;
+    margin-left: 4%;
+    gap: 1rem;
+}
+
+.trade,
+.coll,
+.network {
+    margin-left: 20%;
+
+}
+
+.i {
+    margin-top: -9%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    width: 100vw;
+    height: 8vh;
+    z-index: 888;
+}
+
+.trade {
+    width: 100%;
+    height: 55%;
+    background-color: rgb(94, 163, 140);
+    padding: 6% 9% 5% 9%;
+    border-radius: 5px;
+    margin-top: 6%;
+    align-items: center;
+
+}
+
+.logotext {
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 45vw;
+    margin-top: 2%;
+    margin-left: 1%;
+    column-gap: 6%;
+
+}
+
+.ddash {
+    color: aliceblue;
+    visibility: hidden;
+}
+
+.separetor {
+    width: 0.1vw;
+    height: 3vh;
+    background-color: dimgray;
+}
+
+.headermenu {
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid hsla(0, 0%, 100%, .0784313725490196);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: flex;
+}
+
+.logotext {
+    font-family: 'Electrolize';
+    font-size: 22px;
+    color: aliceblue;
+}
+
+.wallet {
+    column-gap: 40%;
+}
+
+.work {
+    column-gap: 4%;
+}
+
+.launch {
+    background-color: rgb(94, 163, 140);
+    color: aliceblue;
+    width: 30%;
+}
+
+.drobdowm {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 12%;
+    gap: 2rem;
+    padding-top: 1%;
+    border: 1px solid hsla(0, 0%, 100%, .0784313725490196);
+    width: min-content;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.home {
+    width: 38vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    gap: 2rem;
+    left: 4%;
+}
+
+.hometitle {
+    font-weight: bold;
+    font-size: 52px;
+    color: aliceblue;
+}
+
+.discription {
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgb(180, 185, 189);
+}
+
+.content {
+    display: flex;
+
+}
+
+.homeinfo {
+    display: flex;
+    position: absolute;
+    top: 89%;
+    flex-direction: row;
+    width: 100vw;
+    height: 30%;
+    gap: 2.5rem;
+    padding-left: 5%;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .0784313725490196);
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding-left: 10%;
+    width: 29vw;
+    height: 15vh;
+    border: 1px solid hsla(0, 0%, 100%, .0784313725490196);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.info-icon {
+    width: 50px;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+
+.contentinfo {
+    position: absolute;
+    left: 18%;
+    top: 3%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info-icon-left {
+    width: 20%;
+}
+
+.cont-ent {
+    color: rgb(221, 213, 213);
+    font-size: 16px;
+}
+
+.value {
+    color: white;
+    font-size: 28px;
+}
+
+.homebenifitcontainer {
+    width: 100vw;
+    height: 40vh;
+    position: absolute;
+    top: 130%;
+    padding-left: 3%;
+    display: flex;
+    flex-direction: row;
+    gap: 13rem;
+    border-top: none;
+
+
+}
+
+.homebenifit {
+    display: flex;
+    flex-direction: column;
+    width: 45vh;
+    gap: 2rem;
+    height: 50vh;
+
+}
+
+.benifittilte {
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.benifitdiscription {
+    font-size: 16px;
+    font-style: normal;
+    color: rgb(223, 214, 214);
+}
+
+.hometokencontainer {
+    width: 100vw;
+    height: 70%;
+    position: absolute;
+    top: 175%;
+    padding-left: 5%;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .0784313725490196);
+
+}
+
+.hometokentitle {
+    font-size: 40px;
+    color: aliceblue;
+    width: 35vw;
+
+}
+
+.hometokenoptiontitle {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.hometokenoptions {
+    display: flex;
+    flex-direction: row;
+    gap: 1.3rem;
+}
+
+.hometokenoption {
+    margin-top: 2%;
+    padding: 2%;
+    width: 45vw;
+    height: 39vh;
+    border: 1px solid hsl(0, 100%, 100%, .2784313725490196);
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.tokenpng {
+    width: 7%;
+}
+
+.optiontitle {
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+.home-token-option-discription {
+    margin-top: 3%;
+    font-size: 18px;
+    color: antiquewhite;
+}
+
+.ethereum {
+    font-size: 16px;
+    font-family: "Relative", sans-serif;
+    ;
+    color: rgb(184, 179, 174);
+    margin-top: 2%;
+}
+
+.buy {
+    background-color: rgb(94, 163, 140);
+    color: aliceblue;
+
+}
+
+.button-action {
+
+    padding: 1.5%;
+    margin-left: 2%;
+    border: 1px solid hsl(0, 100%, 100%, .7784313725490196);
+    border-radius: 5%;
+    color: aliceblue;
+}
+
+.button-action:hover {
+    background-color: rgb(54, 53, 53);
+    color: aliceblue;
+}
+
+.homefooter {
+    width: 100vw;
+    height: 30vh;
+    position: absolute;
+    top: 245%;
+    background-color: rgb(39, 38, 38);
+    display: flex;
+    justify-content: center;
+    inset: 0px 0px 20px 10px rgba(0,0,0,0.6);
+}
+
+.footerlogotext {
+    margin-top: 4%;
+    margin-left: 47%;
+}
+
+.footerlog {
+    margin-top: 3%;
+    display: flex;
+
+}
+.socialmedialogo
+{
+    position: absolute;
+    top: 60%;
+    display: flex;
+    gap: 6rem;
+    margin-left: 14%;
+}
+.socialmedia-icon:hover
+{
+    background-color: antiquewhite;
+}
+.footerlink
+{
+    position: absolute;
+    top: 80%;
+    display: flex;
+    gap: 4rem;
+    margin-left: 15%;
+}
+.footer-link
+{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.footer-link:hover{
+    color: antiquewhite;
+}
